@@ -1,0 +1,161 @@
+@media(max-width: 1224px) {
+    .discount__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .discount__down {
+        text-align: center;
+    }
+}
+@media(max-width: 1200px) {
+    .pc__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+@media(max-width: 998px) {
+    .twmax__photo {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 992px) {
+    .vrg__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 780px) {
+    .xbox__bg {
+        margin-top: -130px;
+    }
+}
+@media(max-width: 780px) {
+    .xbox__bg {
+        margin-top: -90px;
+    }
+    .nav-desc {
+        color: #FFFFFF;
+        font-size: 9px;
+    }
+    .slider-img {
+      height: 220px !important;
+   }
+}
+@media(max-width: 436px) {
+    .xbox__bg {
+        margin-top: -50px;
+        height: 60px;
+    }
+    .xbox__title {
+        font-size: 24px;
+    }
+    .xbox__desc {
+        font-size: 18px;
+    }
+}
+@media(max-width: 484px) {
+    .pc__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+}
+@media(max-width: 600px) {
+    .discount__lable {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .nav-desc {
+        color: #FFFFFF;
+        font-size: 6px;
+    }
+   
+}
+@media(max-width: 478px) {
+    .discount__up-photo {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+@media(max-width: 1100px) {
+    .play__box {
+        display: flex;
+        flex-direction: column;
+    }
+    .play__img {
+        margin-top: 10px;
+    }
+}
+@media(max-width: 944px) {
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider-img {
+       height: 320px;
+    }
+}
+@media(max-width: 436px) {
+    .wr {
+        flex-direction: column;
+    }
+    .footer__bor {
+        margin-top: 10px;
+    }
+    .head__form {
+        display: flex;
+        flex-direction: column;
+    }
+    .twmax__photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .twmax__btn {
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+        justify-content: space-between;
+    }
+    .slider-img {
+      height: 120px;
+   }
+}
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color: #313131;
+        
+    }
+    p, 
+    h3, 
+    h2, 
+    span {
+        color: #FFFFFF !important;
+    }
+    .mogo{
+        display: none;
+    }
+    .discount__btn {
+        background: none;
+        border: 1px solid white;
+    }
+    .play__title {
+        color: white !important;
+    }
+    .titles, .phones__title, .xbox__title, .xbox__desc, .carousel-item__title, .main__pages-link, span, .pc__title, .twmax__headline, .twmax__list li, .twmax__title, .discount__main-title, .discount__up-title, .discount__down-left-title, .navbar-light .navbar-brand {
+        color: white !important;
+    }
+    .kogo {
+        display: block !important;
+    }
+    .nav2 {
+       background: #1414149e !important;
+    }
+ 
+    
+}
